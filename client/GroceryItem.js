@@ -1,7 +1,7 @@
 import React from "react";
 
-const GroceryItem = (props) => {
-  return props.stuffs.map((item, index) => (
+const GroceryItem = props => {
+  return props.stuff.map((item, index) => (
     <div key={index}>
       <li key={index}> {item} </li>
     </div>
